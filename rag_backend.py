@@ -8,7 +8,7 @@ from langchain_community.llms.bedrock import Bedrock
 
 def hr_index():
 #define data
-    data_load = PyPDFLoader('https://www.upl-ltd.com/images/people/downloads/Leave-Policy-India.pdf')
+    data_load = PyPDFLoader('https://bhel.com/sites/default/files/CDA%20Rules_0.pdf')
     #split data
     data_split = RecursiveCharacterTextSplitter(separators = ["\n\n", "\n", " ", ""], chunk_size = 100, chunk_overlap = 10)
 
